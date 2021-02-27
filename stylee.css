@@ -4,26 +4,23 @@
     font-family:sans-serif ;
 }
 
-.hero{
+.hreo{
     height: 100%;
     width: 100%;
-    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(pitch.jpg) ;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img/planner.jpg);
     background-position: center;
     background-size: cover;
-    position:absolute;
-
+    position: absolute;
 }
-
-.from-box{
+.form-box{
     width: 380px;
     height: 480px;
     position: relative;
     margin: 6% auto;
     background: #fff;
     padding: 5px;
-   overflow: hidden;
+    overflow: hidden;
 }
-
 .button-box{
     width: 220px;
     margin: 35px auto;
@@ -31,7 +28,6 @@
     box-shadow: 0 0 20px 9px #ff61241f;
     border-radius: 30px;
 }
-
 .toggle-btn{
     padding: 10px 30px;
     cursor: pointer;
@@ -40,18 +36,16 @@
     outline: none;
     position: relative;
 }
-
 #btn{
     top: 0;
     left: 0;
     position: absolute;
     width: 110px;
     height: 100%;
-    background: linear-gradient(to right, #FAF082,#FFE650);
+    background: linear-gradient(90deg, #ff105f,#ffad06);
     border-radius: 30px;
     transition: .5s;
 }
-
 .social-icons{
     margin: 30px auto;
     text-align: center;
@@ -82,23 +76,23 @@
 }
 .submit-btn{
     width: 85%;
-    padding: 10px 3px;
+    padding: 10px 30px;
     cursor: pointer;
     display: block;
     margin: auto;
-    background: linear-gradient(to right, #FAF082,#FFE650);
+    background: linear-gradient(to right, #ff105f, #ffad06);
     border: 0;
     outline: none;
     border-radius: 30px;
 }
-.chech-box{
+.check-box{
     margin: 30px 10px 30px 0;
 }
 span{
     color: #777;
     font-size: 12px;
     bottom: 68px;
-    position:absolute ;
+    position: absolute;
 }
 #login{
     left: 50px;
